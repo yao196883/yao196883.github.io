@@ -244,7 +244,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 ```markdown
 $$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
 
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 ```
@@ -261,7 +261,7 @@ math: true
 启用数学功能后，可以使用以下语法添加数学公式
 
 - **数学公式块** 应使用 `$$ math $$`  **必须** 在 `$$` 前后添加空行
-- **内嵌数学公式** (在行内) 必须添加 `$ math $` ，`$` 前后不得有任何空行
+- **内嵌数学公式** (在行内) 必须添加 `$$ math $$` ，`$$` 前后不得有任何空行
 - **内嵌数学公式** (列表中) 必须添加 `\$$ math $$`
 
 ```markdown

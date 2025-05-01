@@ -135,6 +135,159 @@ Moon
 
 ```
 
+## 图片
+
+### 标题
+
+在图片的下一行添加斜体，它将成为标题并显示在图片底部
+
+![Image View](/img/markdown_grammar/83110343_p3_master1200.jpg){: width="845" height="1200" }
+_全屏宽度和居中对齐_
+
+```markdown
+![Image View](/img/markdown_grammar/83110343_p3_master1200.jpg){: width="845" height="1200" }
+_全屏宽度和居中对齐_
+```
+
+### 大小
+
+为了防止在加载图片时页面内容布局发生移动，应该为每张图片设置宽度和高度。
+
+```markdown
+![Image View](/img/markdown_grammar/83110343_p3_master1200.jpg){: width="845" height="1200" }
+_全屏宽度和居中对齐_
+```
+
+> 对于 SVG，至少要指定其宽度，否则将无法渲染。
+{: .prompt-info }
+
+### 左侧贴靠
+
+![Image View](/img/markdown_grammar/83110343_p8_master1200.jpg){: width="844" height="1200" .w-75 .normal}
+
+```markdown
+![Image View](/img/markdown_grammar/83110343_p8_master1200.jpg){: width="844" height="1200" .w-75 .normal}
+```
+
+### 左侧浮动
+
+![Image View](/img/markdown_grammar/83110343_p0_master1200.jpg){: width="844" height="1200" .w-50 .left}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
+
+Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
+
+```markdown
+![Image View](/img/markdown_grammar/83110343_p0_master1200.jpg){: width="844" height="1200" .w-50 .left}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
+
+Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
+```
+
+### 右侧浮动
+
+![Image View](/img/markdown_grammar/83110343_p5_master1200.jpg){: width="844" height="1200" .w-50 .left}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
+
+Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
+
+```markdown
+![Image View](/img/markdown_grammar/83110343_p5_master1200.jpg){: width="844" height="1200" .w-50 .left}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
+
+Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
+```
+
+### 白天/夜间模式和阴影
+
+您可以让图片在白天/夜间模式下遵循主题偏好。这需要准备两张图片，一张用于夜间模式，一张用于白天模式，然后为它们指定一个特定类别 (`dark` or `light`)，图片将根据主题偏好切换白天/夜间模式，注意它有阴影
+
+![Image View Day](/img/markdown_grammar/88588799_p0_master1200.jpg){: .light .w-75 .shadow .rounded-10 width="844" height="1200" }
+![Image View Night](/img/markdown_grammar/88588799_p1_master1200.jpg){: .dark .w-75 .shadow .rounded-10 width="844" height="1200" }
+
+```markdown
+![Image View Day](/img/markdown_grammar/88588799_p0_master1200.jpg){: .light .w-75 .shadow .rounded-10 width="844" height="1200" }
+![Image View Night](/img/markdown_grammar/88588799_p1_master1200.jpg){: .dark .w-75 .shadow .rounded-10 width="844" height="1200" }
+```
+
+## 图片路径
+
+当一篇文章包含许多图片时，重复定义图片路径将是一项耗时的工作。为了解决这个问题，可以在帖子的 YAML 块中定义路径
+
+```yml
+---
+img_path: /img/path/
+---
+```
+
+然后，Markdown 的图像源可以直接写入文件名
+
+```md
+![The flower](flower.png)
+```
+
+实际输出则会是
+
+```html
+<img src="/img/path/flower.png" alt="The flower">
+```
+
+## 视频
+
+```markdown
+{% include embed/bilibili.html id='BV1524y1k787' %}
+```
+
+## 数学表达式
+
+由 [**MathJax**](https://www.mathjax.org/) 支持的数学表达式
+
+$$ \sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} $$
+
+When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+```markdown
+$$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
+
+When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+```
+
+出于网站性能考虑，默认情况下不会加载数学功能。
+
+```yaml
+---
+math: true
+---
+```
+{: file='_sass/jekyll-theme-chirpy.scss'}
+
+启用数学功能后，可以使用以下语法添加数学公式
+
+- **数学公式块** 应使用 `$$ math $$`  **必须** 在 `$$` 前后添加空行
+- **内嵌数学公式** (在行内) 必须添加 `$ math $` ，`$` 前后不得有任何空行
+- **内嵌数学公式** (列表中) 必须添加 `\$$ math $$`
+
+```markdown
+<!-- Block math, keep all blank lines -->
+
+$$
+LaTeX_math_expression
+$$
+
+<!-- Inline math in lines, NO blank lines -->
+
+"Lorem ipsum dolor sit amet, $$ LaTeX_math_expression $$ consectetur adipiscing elit."
+
+<!-- Inline math in lists, escape the first `$` -->
+
+1. \$$ LaTeX_math_expression $$
+2. \$$ LaTeX_math_expression $$
+3. \$$ LaTeX_math_expression $$
+```
+
 ## 表格
 
 | Company                      | Contact          | Country |
@@ -233,57 +386,6 @@ fi;
 {: file='_sass/jekyll-theme-chirpy.scss'}
 ````
 
-## 数学表达式
-
-由 [**MathJax**](https://www.mathjax.org/) 支持的数学表达式
-
-$$ \sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6} $$
-
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
-
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
-```markdown
-$$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
-
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
-
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-```
-
-出于网站性能考虑，默认情况下不会加载数学功能。
-
-```yaml
----
-math: true
----
-```
-{: file='_sass/jekyll-theme-chirpy.scss'}
-
-启用数学功能后，可以使用以下语法添加数学公式
-
-- **数学公式块** 应使用 `$$ math $$`  **必须** 在 `$$` 前后添加空行
-- **内嵌数学公式** (在行内) 必须添加 `$ math $` ，`$` 前后不得有任何空行
-- **内嵌数学公式** (列表中) 必须添加 `\$$ math $$`
-
-```markdown
-<!-- Block math, keep all blank lines -->
-
-$$
-LaTeX_math_expression
-$$
-
-<!-- Inline math in lines, NO blank lines -->
-
-"Lorem ipsum dolor sit amet, $$ LaTeX_math_expression $$ consectetur adipiscing elit."
-
-<!-- Inline math in lists, escape the first `$` -->
-
-1. \$$ LaTeX_math_expression $$
-2. \$$ LaTeX_math_expression $$
-3. \$$ LaTeX_math_expression $$
-```
-
 ## Mermaid
 
 ```mermaid
@@ -311,84 +413,6 @@ $$
 mermaid: true
 ---
 ```
-
-## 图片
-
-### 标题
-
-在图片的下一行添加斜体，它将成为标题并显示在图片底部
-
-![Image View](/img/markdown_grammar/83110343_p3_master1200.jpg){: width="845" height="1200" }
-_全屏宽度和居中对齐_
-
-```markdown
-![Image View](/img/markdown_grammar/83110343_p3_master1200.jpg){: width="845" height="1200" }
-_全屏宽度和居中对齐_
-```
-
-### 大小
-
-为了防止在加载图片时页面内容布局发生移动，应该为每张图片设置宽度和高度。
-
-```markdown
-![Image View](/img/markdown_grammar/83110343_p3_master1200.jpg){: width="845" height="1200" }
-_全屏宽度和居中对齐_
-```
-
-> 对于 SVG，至少要指定其宽度，否则将无法渲染。
-{: .prompt-info }
-
-### 左侧贴靠
-
-![Image View](/img/markdown_grammar/83110343_p8_master1200.jpg){: width="844" height="1200" .w-75 .normal}
-
-```markdown
-![Image View](/img/markdown_grammar/83110343_p8_master1200.jpg){: width="844" height="1200" .w-75 .normal}
-```
-
-### 左侧浮动
-
-![Image View](/img/markdown_grammar/83110343_p0_master1200.jpg){: width="844" height="1200" .w-50 .left}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
-
-Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
-
-```markdown
-![Image View](/img/markdown_grammar/83110343_p0_master1200.jpg){: width="844" height="1200" .w-50 .left}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
-
-Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
-```
-
-### 右侧浮动
-
-![Image View](/img/markdown_grammar/83110343_p5_master1200.jpg){: width="844" height="1200" .w-50 .left}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
-
-Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
-
-```markdown
-![Image View](/img/markdown_grammar/83110343_p5_master1200.jpg){: width="844" height="1200" .w-50 .left}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet rhoncus massa. Aliquam ipsum lacus, cursus in orci ut, posuere ullamcorper magna. Quisque non libero facilisis, lacinia quam ultrices, dignissim leo. In consequat sollicitudin ante eu bibendum. Suspendisse potenti. Curabitur id enim accumsan, consequat ligula in, tempus nibh. Pellentesque quis mauris condimentum sapien faucibus egestas. Ut facilisis nisl sed ante varius posuere. Morbi aliquam imperdiet nunc nec commodo.
-
-Pellentesque at mi in odio condimentum aliquet. Nullam in fermentum ipsum. Curabitur tempor tincidunt fringilla. Nulla eros est, rutrum nec dolor et, luctus auctor ipsum. Nam elementum, quam in tempus venenatis, ante odio facilisis eros, ac volutpat erat dui et nunc. Sed eu tortor malesuada justo gravida pulvinar nec sit amet tortor. Curabitur venenatis ullamcorper leo, eu dictum dolor egestas nec. Donec sed enim aliquet, ultricies libero at, suscipit libero. Donec aliquet vel tellus vel condimentum. Duis vitae dui diam. Quisque vitae lectus sed quam dapibus convallis. Praesent rutrum pretium efficitur. Fusce volutpat rhoncus augue at facilisis. Duis ac ante nulla. Nullam tempor ante ac elit lobortis, ac suscipit massa vestibulum.
-```
-
-### 白天/夜间模式和阴影
-
-您可以让图片在白天/夜间模式下遵循主题偏好。这需要准备两张图片，一张用于夜间模式，一张用于白天模式，然后为它们指定一个特定类别 (`dark` or `light`)，图片将根据主题偏好切换白天/夜间模式，注意它有阴影
-
-![Image View Day](/img/markdown_grammar/88588799_p0_master1200.jpg){: .light .w-75 .shadow .rounded-10 width="844" height="1200" }
-![Image View Night](/img/markdown_grammar/88588799_p1_master1200.jpg){: .dark .w-75 .shadow .rounded-10 width="844" height="1200" }
-
-```markdown
-![Image View Day](/img/markdown_grammar/88588799_p0_master1200.jpg){: .light .w-75 .shadow .rounded-10 width="844" height="1200" }
-![Image View Night](/img/markdown_grammar/88588799_p1_master1200.jpg){: .dark .w-75 .shadow .rounded-10 width="844" height="1200" }
-```
-
-## 视频
-
-{% include embed/bilibili.html id='BV1524y1k787' %}
 
 ## 命名和路径
 
@@ -474,28 +498,6 @@ toc: false
 ---
 comments: false
 ---
-```
-
-## 图片路径
-
-当一篇文章包含许多图片时，重复定义图片路径将是一项耗时的工作。为了解决这个问题，可以在帖子的 YAML 块中定义路径
-
-```yml
----
-img_path: /img/path/
----
-```
-
-然后，Markdown 的图像源可以直接写入文件名
-
-```md
-![The flower](flower.png)
-```
-
-实际输出则会是
-
-```html
-<img src="/img/path/flower.png" alt="The flower">
 ```
 
 ## 反向脚注

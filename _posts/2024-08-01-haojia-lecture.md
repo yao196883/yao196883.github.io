@@ -33,7 +33,7 @@ $PQR\parallel BO\ ,Q\in AB\ ,R\in AC$.
 
 ### 2023-CTST-5
 
-$\triangle ABC$ , $P_1,\dots,P_n\ \in conv\{A,B,C\},$ s.t. $P_1,\dots,P_n,A,B,C$ 任意三点不共线.
+$\triangle ABC$ , $P_1,\dots,P_n\ \in conv\left{A,B,C\right},$ s.t. $P_1,\dots,P_n,A,B,C$ 任意三点不共线.
 Prove: 可将 $\triangle ABC$ 划分为 $2n+1$ 个小三角形, s.t.每个小三角形的顶点都来自 $P_1,\dots,P_n,A,B,C$ <br>
 且含 $A,B,C$ 中至少一个的小三角形不少于 $n+\sqrt{n}+1$ 个.
 
@@ -45,7 +45,7 @@ See More in [Further_Reading](#further_reading)
 
 设 $p$ 质数,实数 $\lambda \in (0,1)$ ,正整数 $s\le t<\frac{\lambda p}{12}$ .($k$ 给定)<br>
 $S,T$ 分别是由 $s,t$ 个连续正整数构成的集合, s.t. <br>
-$|\{(x,y)\in S\times T:kx\equiv y\ (mod\ p)\}|\ge 1+\lambda s$<br>
+$|\left{(x,y)\in S\times T:kx\equiv y\ (mod\ p)\right}|\ge 1+\lambda s$<br>
 Prove: $\exists\ a,b \in \mathbb{Z},$ s.t. $\ 1\le a \le \frac {1}{\lambda},|b|\le \frac{t}{\lambda s} $ and $ka \equiv  b \ (mod\ p)$ .
 
 #### Solution
@@ -54,7 +54,7 @@ $Proof:$<br>
 考虑这 $n(\ge 1+\lambda s)$ 个点形成的凸包 $\Gamma$ .(记 $Vol(\Gamma)=:[\Gamma]$ )<br>
 假设这些点不共线,则 $[\Gamma]>0$ .<br>
 
-$\{(x,y):p|(y-kx)\}=\Lambda=<(1,k),(0,p)>$(Form a lattice)
+$\left{(x,y):p|(y-kx)\right}=\Lambda=<(1,k),(0,p)>$(Form a lattice)
 
 其中每个三角形的面积都可表示为:
 $$
@@ -103,7 +103,7 @@ $\vec{v},\vec{w}$ 三角形内部无整点
 $\Rightarrow\ \vec{v},\vec{w}$ 张成的 平行四边形 内部无整点 ($\star$)
 (否则关于平行四边形中心作对称点有矛盾)
 
-若有 $\lambda,\mu $ s.t. $\lambda \vec{v}+\mu \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \{\lambda\} \vec{v}+\{\mu\} \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \lambda,\mu \in \mathbb{Z}$ . (否则与($\star$)矛盾)
+若有 $\lambda,\mu $ s.t. $\lambda \vec{v}+\mu \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \left{\lambda\right} \vec{v}+\left{\mu\right} \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \lambda,\mu \in \mathbb{Z}$ . (否则与($\star$)矛盾)
 
 又由($\star$) $\Rightarrow\ (1,0)=a\vec{v}+b\vec{w},a,b \in \mathbb{Z};\ (0,1)=c\vec{v}+d\vec{w},c,d\in \mathbb{Z}$ .<br>
 $$
@@ -184,9 +184,10 @@ $(ae-bf-cg-dh)^2+(be+af-dg+ch)^2+(ce+df+ag-bh)^2+(de-cf+bg+ah)^2$<br>
 $\Leftrightarrow\ p|x^2+y^2+z^2+w^2$ (not a lattice), $x^2+y^2+z^2+w^2<2p$ (sphere,convex)<br><br>
 由鸽巢原理,取 $s,t$ s.t. $p|s^2+t^2+1$ ($p$奇素数)<br>
 则有 $p|z^2+w^2+(z^2+w^2)(s^2+t^2)=z^2+w^2+(sz+tw)^2+(sw-tz)^2$ .<br>
-$X:=\{(x,y,z,w):p|x-(sz+tw),p|y-(sw-tz)\}$ (Form a lattice)
+$X:=\left{(x,y,z,w):p|x-(sz+tw),p|y-(sw-tz)\right}$ (Form a lattice)
 $X=span<(p,0,0,0),(0,p,0,0),(s,-t,1,0),(t,s,0,1)>,\ det\ f=p^2$<br>
-又 $Vol(x^2+y^2+z^2+w^2< 2p)=\frac{\pi ^2}{2} (\sqrt{2p})^4>16p^2$ ,结合 $Minkowski's\ Theorem$ 得证.
+又 $Vol(x^2+y^2+z^2+w^2< 2p)=\frac{\pi ^2}{2} (\sqrt{2p})^4>16p^2$<br>
+结合 $Minkowski's\ Theorem$ 得证.
 <p align="right">$\Box$</p>
 
 ### Further_reading

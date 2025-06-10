@@ -76,7 +76,7 @@ $\Rightarrow\ f(x)=0$ 结合 $(\star)$ $\Rightarrow $
 $$\forall\  0\le k\le p-1,\ \sum_{B\in S_k}(-1)^{|B|}\equiv 0\ (mod\ p)$$
 
 特别的, $k=0$ 时, $\emptyset \in S_k$ 而 $\sum_{B\in S_k}(-1)^{|B|}\equiv 0\ (mod\ p)$<br>
-$\Rightarrow\ \exists\ B\in S_0$ and $|B|\ne 0,$ s.t. $\sigma(B)\equiv 0\ (mod\ p)$.
+$\Rightarrow\ \exists\ B\in S_0$ and $\|B\|\ne 0,$ s.t. $\sigma(B)\equiv 0\ (mod\ p)$.
 
 <p align="right">$\Box$</p>
 注意到这种方法给出了 比使用鸽巢原理更多的信息.

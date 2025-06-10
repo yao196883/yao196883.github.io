@@ -21,7 +21,7 @@ math: true
 
 ### 2024-CTST-8
 
-![Image View](https://yao196883.github.io/img/math/2024CTST_8.png){: width="635"}
+![Image View](https://yao196883.github.io/img/math/2024CTST_8.png){: width="318" height="343"}
 
 如图，锐角 $\triangle ABC$ ,外接圆 $\Omega $ ,外心 $O$ .
 $BB\cap CC=:M\ ,AA\cap BB=:N$,
@@ -99,7 +99,7 @@ $\Rightarrow\ 1\le x_2-x_1\le \frac{1}{\lambda},y_2-y_1\le \frac{p}{\lambda s}$ 
 $Proof:$<br>
 可考虑三角剖分,并证明每个 $basic-triangle$ (内部无整点的三角形) 面积为 $\frac{1}{2}$ .
 
-![Image View](https://yao196883.github.io/img/math/Pick.png){: width="375"}
+![Image View](https://yao196883.github.io/img/math/Pick.png){: width="375" height="526"}
 
 $\vec{v},\vec{w}$ 三角形内部无整点
 $\Rightarrow\ \vec{v},\vec{w}$ 张成的 平行四边形 内部无整点 ($\star$)

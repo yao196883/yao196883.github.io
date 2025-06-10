@@ -190,7 +190,8 @@ $\Leftrightarrow\ p|x^2+y^2+z^2+w^2$ (not a lattice), $x^2+y^2+z^2+w^2<2p$ (sphe
 <p>$X:=\{(x,y,z,w):p|x-(sz+tw),p|y-(sw-tz)\}$ (Form a lattice)</p>
 
 $X=span<(p,0,0,0),(0,p,0,0),(s,-t,1,0),(t,s,0,1)>,\ det\ f=p^2$<br>
-又 $Vol(x^2+y^2+z^2+w^2< 2p)=\frac{\pi ^2}{2} (\sqrt{2p})^4>16p^2$ ,结合 $Minkowski's\ Theorem$ 得证.
+又 $Vol(x^2+y^2+z^2+w^2< 2p)=\frac{\pi ^2}{2} (\sqrt{2p})^4>16p^2$ ,<br>
+结合 $Minkowski's\ Theorem$ 得证.
 <p align="right">$\Box$</p>
 
 ### Further_reading

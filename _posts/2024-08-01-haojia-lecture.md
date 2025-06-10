@@ -33,7 +33,8 @@ $PQR\parallel BO\ ,Q\in AB\ ,R\in AC$.
 
 ### 2023-CTST-5
 
-$\triangle ABC$ , $P_1,\dots,P_n\ \in conv\left\{A,B,C\right\},$ s.t. $P_1,\dots,P_n,A,B,C$ 任意三点不共线.
+<p>$\triangle ABC$ , $P_1,\dots,P_n\ \in conv\{A,B,C\},$ s.t. $P_1,\dots,P_n,A,B,C$ 任意三点不共线.</p>
+
 Prove: 可将 $\triangle ABC$ 划分为 $2n+1$ 个小三角形, s.t.每个小三角形的顶点都来自 $P_1,\dots,P_n,A,B,C$ <br>
 且含 $A,B,C$ 中至少一个的小三角形不少于 $n+\sqrt{n}+1$ 个.
 
@@ -45,7 +46,8 @@ See More in [Further_Reading](#further_reading)
 
 设 $p$ 质数,实数 $\lambda \in (0,1)$ ,正整数 $s\le t<\frac{\lambda p}{12}$ .($k$ 给定)<br>
 $S,T$ 分别是由 $s,t$ 个连续正整数构成的集合, s.t. <br>
-$|\left\{(x,y)\in S\times T:kx\equiv y\ (mod\ p)\right\}|\ge 1+\lambda s$<br>
+<p>$|\{(x,y)\in S\times T:kx\equiv y\ (mod\ p)\}|\ge 1+\lambda s$</p>
+
 Prove: $\exists\ a,b \in \mathbb{Z},$ s.t. $\ 1\le a \le \frac {1}{\lambda},|b|\le \frac{t}{\lambda s} $ and $ka \equiv  b \ (mod\ p)$ .
 
 #### Solution
@@ -54,7 +56,7 @@ $Proof:$<br>
 考虑这 $n(\ge 1+\lambda s)$ 个点形成的凸包 $\Gamma$ .(记 $Vol(\Gamma)=:[\Gamma]$ )<br>
 假设这些点不共线,则 $[\Gamma]>0$ .<br>
 
-$\left\{(x,y):p|(y-kx)\right\}=\Lambda=<(1,k),(0,p)>$(Form a lattice)
+<p>$\{(x,y):p|(y-kx)\}=\Lambda=<(1,k),(0,p)>$(Form a lattice)</p>
 
 其中每个三角形的面积都可表示为:
 $$
@@ -65,8 +67,8 @@ $$
 \end{bmatrix}|
 $$
 
-由于 $p|(y_1-kx_1),p|(y_2-kx_2)\ \right\arrow\ \frac{p}{2}|S_{\triangle}$<br>
-$\right\arrow [\Gamma]\ge \frac{p}{2} (n-2)$ (考虑最差三角剖分)<br><br>
+由于 $p|(y_1-kx_1),p|(y_2-kx_2)\ \Rightarrow\ \frac{p}{2}|S_{\triangle}$<br>
+$\Rightarrow [\Gamma]\ge \frac{p}{2} (n-2)$ (考虑最差三角剖分)<br><br>
 Or by Pick's Theorem:
 $$
 [\Gamma]\ge |det
@@ -78,12 +80,12 @@ $$
 $$
 
 又 $[\Gamma]\le (s-1)(t-1)\le (s-1)(\frac{\lambda p}{4}-1)$  (注:$\frac{\lambda p}{12}$可优化为$\frac{\lambda p}{4}$)<br>
-则 $\frac{p}{2}(n-2)\le(s-1)(\frac{\lambda p}{4}-1)<\frac{p}{4}\cdot\lambda s\ \right\arrow\ n\le 3.$ 矛盾！
+则 $\frac{p}{2}(n-2)\le(s-1)(\frac{\lambda p}{4}-1)<\frac{p}{4}\cdot\lambda s\ \Rightarrow\ n\le 3.$ 矛盾！
 故 $[\Gamma]=0$ .<br>
 
 取两相邻(最近)点, $(x_1,y_1),(x_2,y_2),x_1<x_2$.<br>
 则 $(1+\lambda s-1)(x_2-x_1)\le s,|(1+\lambda s-1)(y_2-y_1)|\le t$<br>
-$\right\arrow\ 1\le x_2-x_1\le \frac{1}{\lambda},y_2-y_1\le \frac{p}{\lambda s}$ 且 $k(x_2-x_1)\equiv (y_2-y_1)\ (mod\ p)$ .<br>
+$\Rightarrow\ 1\le x_2-x_1\le \frac{1}{\lambda},y_2-y_1\le \frac{p}{\lambda s}$ 且 $k(x_2-x_1)\equiv (y_2-y_1)\ (mod\ p)$ .<br>
 取 $a=x_2-x_1,b=y_2-y_1$ 即可.
 <p align="right">$\Box$</p>
 
@@ -100,12 +102,12 @@ $Proof:$<br>
 ![Image View](https://yao196883.github.io/img/math/Pick.png){: width="187" height="263" .w-50 .left}
 
 $\vec{v},\vec{w}$ 三角形内部无整点
-$\right\arrow\ \vec{v},\vec{w}$ 张成的 平行四边形 内部无整点 ($\star$)
+$\Rightarrow\ \vec{v},\vec{w}$ 张成的 平行四边形 内部无整点 ($\star$)
 (否则关于平行四边形中心作对称点有矛盾)
 
-若有 $\lambda,\mu $ s.t. $\lambda \vec{v}+\mu \vec{w} \in \mathbb{Z}^2\ \right\arrow\ \left\{\lambda\right\} \vec{v}+\left\{\mu\right\} \vec{w} \in \mathbb{Z}^2\ \right\arrow\ \lambda,\mu \in \mathbb{Z}$ . (否则与($\star$)矛盾)
+<p> 若有 $\lambda,\mu $ s.t. $\lambda \vec{v}+\mu \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \{\lambda\} \vec{v}+\{\mu\} \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \lambda,\mu \in \mathbb{Z}$ . (否则与($\star$)矛盾) </p>
 
-又由($\star$) $\right\arrow\ (1,0)=a\vec{v}+b\vec{w},a,b \in \mathbb{Z};\ (0,1)=c\vec{v}+d\vec{w},c,d\in \mathbb{Z}$ .<br>
+又由($\star$) $\Rightarrow\ (1,0)=a\vec{v}+b\vec{w},a,b \in \mathbb{Z};\ (0,1)=c\vec{v}+d\vec{w},c,d\in \mathbb{Z}$ .<br>
 $$
 \begin{bmatrix}
   1& 0\\
@@ -123,7 +125,7 @@ $$
   a& b\\
  c &d
 \end{bmatrix} \in \mathbb{Z}\ 
-\right\arrow\ |det
+\Rightarrow\ |det
 \begin{bmatrix}
 \vec{v} \\
 \vec{w}
@@ -131,7 +133,7 @@ $$
 |=1
 $$
 
-$\right\arrow\ S_{\triangle basis}=\frac{1}{2}$ .<br>
+$\Rightarrow\ S_{\triangle basis}=\frac{1}{2}$ .<br>
 <p align="right">$\Box$</p>
 (也可见于《Proofs from THE BOOK》)
 
@@ -149,7 +151,7 @@ $T:=X\cap(\prod_{i=1}^{n}[u_i,v_i))$<br>
 
 (几何代数 基石)<br>
 $\Omega \subseteq \mathbb{R}^n\ \ convex\ ,\Omega=-\Omega$ ($i.e.$ 中心对称).<br>
-$Vol(\Omega)>2^n\ \right\arrow\ |\Omega\cap X|>1$ (不仅仅有 $(0,0)$) ($X=\mathbb{Z}^n$ or $f(\mathbb{Z}^n),det\ f=\pm 1$)
+$Vol(\Omega)>2^n\ \Rightarrow\ |\Omega\cap X|>1$ (不仅仅有 $(0,0)$) ($X=\mathbb{Z}^n$ or $f(\mathbb{Z}^n),det\ f=\pm 1$)
 
 #### Theorem's_Proof
 
@@ -160,12 +162,12 @@ $Proof:$<br>
 $dim=2,X=\mathbb{Z}^2:$<br>
 $\Omega_{t,s}=\Omega\cap ([2t,2t+2)\times[2s,2s+2))$<br>
 $\sum_{t,s\in\mathbb{Z}}Vol(\Omega_{t,s}-(2t,2s))=Vol(\Omega)>2^2$<br>
-$\right\arrow$ 有非平凡交集,即 $\Omega$ 中有两点差为 $2(t-t'),2(s-s').\ \ Q.E.D.$<br><br>
+$\Rightarrow$ 有非平凡交集,即 $\Omega$ 中有两点差为 $2(t-t'),2(s-s').\ \ Q.E.D.$<br><br>
 $dim=n,X=\mathbb{Z}^n:$<br>
 $\Omega_{a_1,a_2,\dots,a_n}=\Omega\cap (\prod_{d=1}^{n}[2a_d,2a_d+2))-(2a_1,2a_2,\dots,2a_n)\subseteq [0,2)^n\ .$<br>
 若两两均平凡相交, $\sum_{a_1,a_2,\dots,a_n\in \mathbb{Z}  }Vol(\Omega_{a_1,a_2,\dots,a_n})\le 2^n$ .<br>
 而 $\sum_{a_1,a_2,\dots,a_n\in\mathbb{Z}}Vol(\Omega_{a_1,a_2,\dots,a_n})=Vol(\Omega)>2^n$ . 矛盾!<br>
-$\right\arrow\ \exists\ w,v\in\Omega,w-v\in(2\mathbb{Z})^n$ .
+$\Rightarrow\ \exists\ w,v\in\Omega,w-v\in(2\mathbb{Z})^n$ .
 <p align="right">$\Box$</p>
 
 ### Lagrange's_four-square_theorem
@@ -181,13 +183,13 @@ $(ae-bf-cg-dh)+(be+af-dg+ch)i+(ce+df+ag-bh)j+(de-cf+bg+ah)k$<br>
 So, $(a^2+b^2+c^2+d^2)(e^2+f^2+g^2+h^2)=$<br>
 $(ae-bf-cg-dh)^2+(be+af-dg+ch)^2+(ce+df+ag-bh)^2+(de-cf+bg+ah)^2$<br>
 故只需验证素数 $p$ 即可.<br>
-$\left\right\arrow\ p|x^2+y^2+z^2+w^2$ (not a lattice), $x^2+y^2+z^2+w^2<2p$ (sphere,convex)<br><br>
+$\Leftrightarrow\ p|x^2+y^2+z^2+w^2$ (not a lattice), $x^2+y^2+z^2+w^2<2p$ (sphere,convex)<br><br>
 由鸽巢原理,取 $s,t$ s.t. $p|s^2+t^2+1$ ($p$奇素数)<br>
 则有 $p|z^2+w^2+(z^2+w^2)(s^2+t^2)=z^2+w^2+(sz+tw)^2+(sw-tz)^2$ .<br>
-$X:=\left\{(x,y,z,w):p|x-(sz+tw),p|y-(sw-tz)\right\}$ (Form a lattice)
+<p>$X:=\{(x,y,z,w):p|x-(sz+tw),p|y-(sw-tz)\}$ (Form a lattice)</p>
+
 $X=span<(p,0,0,0),(0,p,0,0),(s,-t,1,0),(t,s,0,1)>,\ det\ f=p^2$<br>
-又 $Vol(x^2+y^2+z^2+w^2< 2p)=\frac{\pi ^2}{2} (\sqrt{2p})^4>16p^2$<br>
-结合 $Minkowski's\ Theorem$ 得证.
+又 $Vol(x^2+y^2+z^2+w^2< 2p)=\frac{\pi ^2}{2} (\sqrt{2p})^4>16p^2$ ,结合 $Minkowski's\ Theorem$ 得证.
 <p align="right">$\Box$</p>
 
 ### Further_reading

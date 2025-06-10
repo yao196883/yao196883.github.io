@@ -21,7 +21,7 @@ math: true
 
 ### 2024-CTST-8
 
-![Image View](https://yao196883.github.io/img/math/2024CTST_8.png){: width="318" height="343" .w-50 .left}
+![Image View](https://yao196883.github.io/img/math/2024CTST_8.png){: width="318" height="343" .w-75 .left}
 
 如图，锐角 $\triangle ABC$ ,外接圆 $\Omega $ ,外心 $O$ .
 $BB\cap CC=:M\ ,AA\cap BB=:N$,
@@ -48,7 +48,7 @@ See More in [Further_Reading](#further_reading)
 $S,T$ 分别是由 $s,t$ 个连续正整数构成的集合, s.t. <br>
 <p>$|\{(x,y)\in S\times T:kx\equiv y\ (mod\ p)\}|\ge 1+\lambda s$</p>
 
-Prove: $\exists\ a,b \in \mathbb{Z},$ s.t. $\ 1\le a \le \frac {1}{\lambda},|b|\le \frac{t}{\lambda s} $ and $ka \equiv  b \ (mod\ p)$ .
+Prove: $\exists\ a,b \in \mathbb{Z},$ s.t. $\ 1\le a \le \frac {1}{\lambda},\|b\|\le \frac{t}{\lambda s} $ and $ka \equiv  b \ (mod\ p)$ .
 
 #### Solution
 
@@ -99,7 +99,7 @@ $\Rightarrow\ 1\le x_2-x_1\le \frac{1}{\lambda},y_2-y_1\le \frac{p}{\lambda s}$ 
 $Proof:$<br>
 可考虑三角剖分,并证明每个 $basic-triangle$ (内部无整点的三角形) 面积为 $\frac{1}{2}$ .
 
-![Image View](https://yao196883.github.io/img/math/Pick.png){: width="187" height="263" .w-50 .left}
+![Image View](https://yao196883.github.io/img/math/Pick.png){: width="187" height="263" .w-75 .left}
 
 $\vec{v},\vec{w}$ 三角形内部无整点
 $\Rightarrow\ \vec{v},\vec{w}$ 张成的 平行四边形 内部无整点 ($\star$)
@@ -107,7 +107,8 @@ $\Rightarrow\ \vec{v},\vec{w}$ 张成的 平行四边形 内部无整点 ($\star
 
 <p> 若有 $\lambda,\mu $ s.t. $\lambda \vec{v}+\mu \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \{\lambda\} \vec{v}+\{\mu\} \vec{w} \in \mathbb{Z}^2\ \Rightarrow\ \lambda,\mu \in \mathbb{Z}$ . (否则与($\star$)矛盾) </p>
 
-又由($\star$) $\Rightarrow\ (1,0)=a\vec{v}+b\vec{w},a,b \in \mathbb{Z};\ (0,1)=c\vec{v}+d\vec{w},c,d\in \mathbb{Z}$ .<br>
+又由($\star$) $\Rightarrow\ (1,0)=a\vec{v}+b\vec{w},a,b \in \mathbb{Z};$<br>
+    $(0,1)=c\vec{v}+d\vec{w},c,d\in \mathbb{Z}$ .<br>
 $$
 \begin{bmatrix}
   1& 0\\

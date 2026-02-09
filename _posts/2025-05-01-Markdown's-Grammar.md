@@ -272,6 +272,22 @@ math: true
 > 例如行内用 `\(\square\)`，或在块公式末尾用 `\hfill \square` 实现右对齐。
 {: .prompt-tip }
 
+<!-- Prevent Liquid from eating curly braces -->
+
+{% raw %}
+$$
+\left\{ x \in \mathbb{R} \mid x > 0 \right\}
+$$
+{% endraw %}
+
+<!-- Proof end with a QED box (inline or right-aligned) -->
+
+The proof is complete. \(\square\)
+
+$$
+\text{Proof.}\ \ldots\ \hfill \square
+$$
+
 ```markdown
 <!-- Block math, keep all blank lines -->
 

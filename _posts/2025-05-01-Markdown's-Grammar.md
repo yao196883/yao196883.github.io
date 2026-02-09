@@ -268,8 +268,8 @@ math: true
 > 解决方法之一是将包含花括号的公式包裹在 `{% raw %}` 与 `{% endraw %}` 中，避免 Liquid 处理。
 {: .prompt-warning }
 
-> 证明末尾的小正方形建议直接用数学符号完成对齐，避免使用 `<p>` 或 `align` 造成额外空行。
-> 例如行内用 `\(\square\)`，或在块公式末尾用 `\hfill \square` 实现右对齐。
+> 证明末尾的小正方形可用数学符号完成对齐
+> 例如行内用 `\(\square\)`，或使用 MathJax 支持的 `\tag*{\square}` 在块公式右侧显示。
 {: .prompt-tip }
 
 <!-- Prevent Liquid from eating curly braces -->
@@ -285,7 +285,7 @@ $$
 The proof is complete. \(\square\)
 
 $$
-\text{Proof.}\ \ldots\ \hfill \square
+\text{Proof.}\ \ldots \tag*{\square}
 $$
 
 ```markdown
@@ -318,7 +318,7 @@ $$
 The proof is complete. \(\square\)
 
 $$
-\text{Proof.}\ \ldots\ \hfill \square
+\text{Proof.}\ \ldots \tag*{\square}
 $$
 ```
 

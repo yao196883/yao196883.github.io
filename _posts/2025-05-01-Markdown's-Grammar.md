@@ -265,8 +265,10 @@ math: true
 - **内嵌数学公式** (列表中) 必须添加 `\$$ math $$`
 
 > 如果公式中包含 `\{`、`\}` 或 `\left\{`、`\right\}` 等花括号，在 Jekyll/Chirpy 中可能会被 Liquid 误解析而丢失。
-> 解决方法之一是将包含花括号的公式包裹在{{ '{%' }} raw {{ '%}' }}` 与 `{{ '{%' }} endraw {{ '%}' }}`中，避免 Liquid 处理。
+> 解决方法之一是将包含花括号的公式包裹在 与 中，避免 Liquid 处理。
 {: .prompt-tip }
+
+![Image Solution](/img/markdown_grammar/solution.png)
 
 {% raw %}
 $$

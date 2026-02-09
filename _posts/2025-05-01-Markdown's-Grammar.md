@@ -264,63 +264,15 @@ math: true
 - **内嵌数学公式** (在行内) 必须添加 `$ math $` ，`$` 前后不得有任何空行
 - **内嵌数学公式** (列表中) 必须添加 `\$$ math $$`
 
-> 如果公式中包含 `{`、`}` 或 `\left\{`、`\right\}` 等花括号，在 Jekyll/Chirpy 中可能会被 Liquid 误解析而丢失。
-> 解决方法之一是将包含花括号的公式包裹在 `{% raw %}` 与 `{% endraw %}` 中，避免 Liquid 处理。
-{: .prompt-warning }
-
-> 证明末尾的小正方形可用数学符号完成对齐
-> 例如行内用 `\(\require{ams}\square\)`，或使用 MathJax 支持的 `\tag*{\require{ams}\square}` 在块公式右侧显示。
+> 如果公式中包含 `\{`、`\}` 或 `\left\{`、`\right\}` 等花括号，在 Jekyll/Chirpy 中可能会被 Liquid 误解析而丢失。
+> 解决方法之一是将包含花括号的公式包裹在 `{% raw '百分号'}` 与 `{% endraw '百分号'}` 中，避免 Liquid 处理。
 {: .prompt-tip }
 
-<!-- Prevent Liquid from eating curly braces -->
-
 {% raw %}
 $$
 \left\{ x \in \mathbb{R} \mid x > 0 \right\}
 $$
 {% endraw %}
-
-<!-- Proof end with a QED box (inline or right-aligned) -->
-
-The proof is complete. \(\require{ams}\square\)
-
-$$
-\text{Proof.}\ \ldots \tag*{\require{ams}\square}
-$$
-
-```markdown
-<!-- Block math, keep all blank lines -->
-
-$$
-LaTeX_math_expression
-$$
-
-<!-- Inline math in lines, NO blank lines -->
-
-"Lorem ipsum dolor sit amet, $$ LaTeX_math_expression $$ consectetur adipiscing elit."
-
-<!-- Inline math in lists, escape the first `$` -->
-
-1. \$$ LaTeX_math_expression $$
-2. \$$ LaTeX_math_expression $$
-3. \$$ LaTeX_math_expression $$
-
-<!-- Prevent Liquid from eating curly braces -->
-
-{% raw %}
-$$
-\left\{ x \in \mathbb{R} \mid x > 0 \right\}
-$$
-{% endraw %}
-
-<!-- Proof end with a QED box (inline or right-aligned) -->
-
-The proof is complete. \(\require{ams}\square\)
-
-$$
-\text{Proof.}\ \ldots \tag*{\require{ams}\square}
-$$
-```
 
 ## 表格
 

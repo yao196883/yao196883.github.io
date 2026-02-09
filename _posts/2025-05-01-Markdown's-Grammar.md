@@ -269,7 +269,7 @@ math: true
 {: .prompt-warning }
 
 > 证明末尾的小正方形可用数学符号完成对齐
-> 例如行内用 `\(\square\)`，或使用 MathJax 支持的 `\tag*{\square}` 在块公式右侧显示。
+> 例如行内用 `\(\box\)`，或使用 MathJax 支持的 `\tag*{\box}` 在块公式右侧显示。
 {: .prompt-tip }
 
 <!-- Prevent Liquid from eating curly braces -->
@@ -282,10 +282,10 @@ $$
 
 <!-- Proof end with a QED box (inline or right-aligned) -->
 
-The proof is complete. \(\square\)
+The proof is complete. \(\box\)
 
 $$
-\text{Proof.}\ \ldots \tag*{\square}
+\text{Proof.}\ \ldots \tag*{\box}
 $$
 
 ```markdown
@@ -315,10 +315,10 @@ $$
 
 <!-- Proof end with a QED box (inline or right-aligned) -->
 
-The proof is complete. \(\square\)
+The proof is complete. \(\box\)
 
 $$
-\text{Proof.}\ \ldots \tag*{\square}
+\text{Proof.}\ \ldots \tag*{\box}
 $$
 ```
 
